@@ -123,7 +123,7 @@ su dependencia.
 
 - [x] #17 Especificar asignación, reutilización, ownership y límites.
 - [x] #18 Implementar y probar modelos de construcción y reutilización.
-- [ ] #20 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
+- [x] #20 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ### Capítulo 07: arenas seguras y ciclos de vida
 
