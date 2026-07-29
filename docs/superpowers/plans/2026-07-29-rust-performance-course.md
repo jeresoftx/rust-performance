@@ -103,7 +103,7 @@ su dependencia.
 
 - [x] #8 Especificar qué responde un perfil y qué no demuestra.
 - [x] #9 Implementar y probar un modelo de contadores e interpretación.
-- [ ] #10 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
+- [x] #10 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
 
 ## Milestone 2: Memoria y comportamiento de CPU
 
