@@ -145,7 +145,7 @@ su dependencia.
 
 - [ ] #27 Decidir estrategia permitida para SIMD explícito y dependencias.
 - [x] #28 Especificar auto-vectorización, portabilidad y validación numérica.
-- [ ] #29 Implementar y probar el modelo SIMD autorizado.
+- [x] #29 Implementar y probar el modelo SIMD autorizado.
 - [ ] #30 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ## Milestone 4: Investigación integradora y cierre
