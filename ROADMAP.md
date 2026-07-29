@@ -6,11 +6,11 @@ registra dirección y calidad, no una carrera por terminar (RFC-0001 §1).
 
 ## Estado Actual
 
-La fundación del repositorio está lista. Antes de crear capítulos o modelos se
-debe elaborar un plan versionado y convertirlo en GitHub Project, milestones e
-issues. Cada issue será asignado a `jeresoftx`, tendrá labels, milestone y
-pertenecerá al Project; cada PR se agregará y verificará en el mismo Project,
-conforme a RFC-0002.
+La fundación y el plan operativo están listos. El
+[plan versionado](docs/superpowers/plans/2026-07-29-rust-performance-course.md)
+se ejecuta mediante el [GitHub Project](https://github.com/users/jeresoftx/projects/19),
+milestones e issues. El siguiente paso es el bloque `#2 → #3 → #4`: evidencia
+y contrato de medición.
 
 ## Dirección Técnica
 
