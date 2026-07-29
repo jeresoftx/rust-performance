@@ -1,5 +1,7 @@
 # Summary
 
+- [Ruta de lectura](00-ruta-de-lectura.md)
+
 # Parte I: Disciplina de medición
 
 - [Evidencia y contrato de medición](01-evidencia-y-contrato-de-medicion.md)
@@ -21,3 +23,7 @@
 # Parte IV: Investigación integradora y cierre
 
 - [Investigación completa de rendimiento](10-investigacion-completa-de-rendimiento.md)
+
+# Referencia
+
+- [Glosario](11-glosario.md)

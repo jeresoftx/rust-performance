@@ -9,8 +9,9 @@ registra dirección y calidad, no una carrera por terminar (RFC-0001 §1).
 La fundación y el plan operativo están listos. El
 [plan versionado](docs/superpowers/plans/2026-07-29-rust-performance-course.md)
 se ejecuta mediante el [GitHub Project](https://github.com/users/jeresoftx/projects/19),
-milestones e issues. La investigación completa de rendimiento está en `draft`;
-queda `#34`: cierre editorial, glosario y auditoría de enlaces.
+milestones e issues. Los diez capítulos, ruta de lectura, glosario, ejemplos y
+plantilla de informe están en `draft`. La revisión humana transversal decide
+qué contenido puede pasar después a `reviewed` o `published`.
 
 ## Dirección Técnica
 

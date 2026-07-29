@@ -20,7 +20,7 @@ algoritmos o low-level.
 **Nivel:** intermedio-avanzado. **Prerequisitos:** Rust básico, ownership,
 complejidad algorítmica y nociones de arquitectura de computadores.
 
-## Temas Planeados
+## Temas Del Curso
 
 - Diseño de benchmarks y líneas base reproducibles.
 - Profiling y lectura crítica de perfiles.
@@ -55,9 +55,9 @@ cargo test --doc
 
 ## Gobernanza
 
-- La estructura sigue RFC-0001 §15; los capítulos seguirán §14 y §16.
-- Antes de iniciar desarrollo se crearán plan, GitHub Project, milestones e
-  issues asignados a `jeresoftx`.
+- La estructura sigue RFC-0001 §15 y los capítulos aplican §14 y §16.
+- El plan, GitHub Project, milestones e issues asignados a `jeresoftx` ya
+  proporcionan trazabilidad de cada slice educativo.
 - El avance operativo vive en el [GitHub Project](https://github.com/users/jeresoftx/projects/19).
 - Cada PR deberá pertenecer al mismo GitHub Project que su issue, conforme a
   RFC-0002.
