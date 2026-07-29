@@ -17,3 +17,7 @@
 
 - [Zero-copy, buffers y serialización](08-zero-copy-y-buffers.md)
 - [SIMD y límites de vectorización](09-simd-y-limites-de-vectorizacion.md)
+
+# Parte IV: Investigación integradora y cierre
+
+- [Investigación completa de rendimiento](10-investigacion-completa-de-rendimiento.md)
