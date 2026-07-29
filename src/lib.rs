@@ -6,6 +6,7 @@
 
 #![forbid(unsafe_code)]
 
+pub mod benchmark;
 pub mod measurement;
 
 /// Devuelve la identidad del curso para comprobar la fundación del crate.
