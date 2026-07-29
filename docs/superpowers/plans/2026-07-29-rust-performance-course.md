@@ -137,7 +137,7 @@ su dependencia.
 
 - [x] #24 Especificar préstamos, buffers, parsing y costo de copias.
 - [x] #25 Implementar y probar parsing basado en slices y buffers.
-- [ ] #26 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
+- [x] #26 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ### Capítulo 09: SIMD y límites de vectorización
 

@@ -12,3 +12,7 @@
 - [Ramas y layout orientado a datos](05-ramas-y-layout.md)
 - [Asignaciones y costo de propiedad](06-asignaciones-y-propiedad.md)
 - [Arenas seguras y ciclos de vida](07-arenas-seguras-y-ciclos-de-vida.md)
+
+# Parte III: Movimiento de datos y SIMD
+
+- [Zero-copy, buffers y serialización](08-zero-copy-y-buffers.md)
