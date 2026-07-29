@@ -29,8 +29,8 @@ complejidad algorítmica y nociones de arquitectura de computadores.
 - Zero-copy, buffers y costo de serialización.
 - SIMD y límites de la vectorización.
 
-Los capítulos, su orden y sus criterios de aceptación se definirán en un plan
-versionado antes de implementar contenido.
+Los capítulos, su orden y sus criterios de aceptación viven en el
+[plan versionado](docs/superpowers/plans/2026-07-29-rust-performance-course.md).
 
 ## Estructura
 
@@ -58,6 +58,7 @@ cargo test --doc
 - La estructura sigue RFC-0001 §15; los capítulos seguirán §14 y §16.
 - Antes de iniciar desarrollo se crearán plan, GitHub Project, milestones e
   issues asignados a `jeresoftx`.
+- El avance operativo vive en el [GitHub Project](https://github.com/users/jeresoftx/projects/19).
 - Cada PR deberá pertenecer al mismo GitHub Project que su issue, conforme a
   RFC-0002.
 - El código usa `MIT OR Apache-2.0`; el contenido educativo usa `CC BY-SA 4.0`.
