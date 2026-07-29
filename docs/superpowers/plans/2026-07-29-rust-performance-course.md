@@ -97,7 +97,7 @@ su dependencia.
 
 - [x] #5 Especificar muestras, calentamiento, ruido y reporte de resultados.
 - [x] #6 Implementar y probar un harness educativo sin dependencias externas.
-- [ ] #7 Escribir capítulo, ejemplos, ejercicios, soluciones y benchmark base.
+- [x] #7 Escribir capítulo, ejemplos, ejercicios, soluciones y benchmark base.
 
 ### Capítulo 03: profiling y selección de hot paths
 
