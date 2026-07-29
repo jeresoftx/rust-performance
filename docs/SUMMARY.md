@@ -16,3 +16,4 @@
 # Parte III: Movimiento de datos y SIMD
 
 - [Zero-copy, buffers y serialización](08-zero-copy-y-buffers.md)
+- [SIMD y límites de vectorización](09-simd-y-limites-de-vectorizacion.md)
