@@ -1,6 +1,6 @@
 # Plan de implementación de Rust Performance
 
-**Estado:** activo · **Actualizado:** 2026-07-29 · **Repositorio:**
+**Estado:** completo en draft · **Actualizado:** 2026-07-29 · **Repositorio:**
 [`jeresoftx/rust-performance`](https://github.com/jeresoftx/rust-performance)
 
 ## Fuente de verdad
@@ -158,7 +158,7 @@ su dependencia.
 
 ### Cierre editorial
 
-- [ ] #34 Completar ruta de lectura, glosario, referencias cruzadas y auditoría.
+- [x] #34 Completar ruta de lectura, glosario, referencias cruzadas y auditoría.
 
 ## Dependencias y blockers
 
@@ -212,5 +212,6 @@ principal → 1 PR → checks → squash merge`. El PR debe agregarse y verifica
 en Project #19 conforme a RFC-0002; los items solo pasan a `Done` tras merge y
 sincronización de `main`.
 
-Siguiente bloque recomendado: `#2 → #3 → #4`, capítulo 01. No requiere
-dependencias externas y establece la metodología del resto del curso.
+Siguiente paso recomendado: revisión humana transversal del contenido `draft`.
+Esa revisión decide por separado qué capítulos pueden pasar a `reviewed` o
+`published`; no forma parte de esta ejecución autónoma.
