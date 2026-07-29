@@ -89,7 +89,7 @@ su dependencia.
 
 ### Capítulo 01: evidencia y contrato de medición
 
-- [ ] #2 Especificar hipótesis, línea base, variables y amenazas a validez.
+- [x] #2 Especificar hipótesis, línea base, variables y amenazas a validez.
 - [ ] #3 Implementar y probar un modelo de experimento reproducible.
 - [ ] #4 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
 
