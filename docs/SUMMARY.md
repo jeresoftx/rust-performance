@@ -9,3 +9,4 @@
 # Parte II: Memoria y comportamiento de CPU
 
 - [Caché y localidad](04-cache-y-localidad.md)
+- [Ramas y layout orientado a datos](05-ramas-y-layout.md)

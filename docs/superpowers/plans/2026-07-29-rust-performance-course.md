@@ -117,7 +117,7 @@ su dependencia.
 
 - [x] #14 Especificar predicción de ramas, distribución y representación.
 - [x] #15 Implementar y probar modelos de ramas y layout alternativo.
-- [ ] #16 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
+- [x] #16 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ### Capítulo 06: asignaciones y costo de propiedad
 
