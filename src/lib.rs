@@ -6,6 +6,7 @@
 
 #![forbid(unsafe_code)]
 
+pub mod allocation;
 pub mod benchmark;
 pub mod layout;
 pub mod locality;
