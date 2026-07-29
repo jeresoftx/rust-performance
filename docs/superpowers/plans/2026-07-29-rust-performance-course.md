@@ -111,7 +111,7 @@ su dependencia.
 
 - [x] #11 Especificar localidad espacial, temporal y condiciones de medición.
 - [x] #12 Implementar y probar modelos de recorrido contiguo y disperso.
-- [ ] #13 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
+- [x] #13 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ### Capítulo 05: ramas y layout orientado a datos
 
