@@ -7,6 +7,7 @@
 #![forbid(unsafe_code)]
 
 pub mod benchmark;
+pub mod locality;
 pub mod measurement;
 pub mod profile;
 
