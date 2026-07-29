@@ -8,6 +8,7 @@
 
 pub mod benchmark;
 pub mod measurement;
+pub mod profile;
 
 /// Devuelve la identidad del curso para comprobar la fundación del crate.
 #[must_use]
