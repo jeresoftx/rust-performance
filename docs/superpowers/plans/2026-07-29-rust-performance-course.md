@@ -91,7 +91,7 @@ su dependencia.
 
 - [x] #2 Especificar hipótesis, línea base, variables y amenazas a validez.
 - [x] #3 Implementar y probar un modelo de experimento reproducible.
-- [ ] #4 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
+- [x] #4 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
 
 ### Capítulo 02: diseño de benchmarks reproducibles
 
