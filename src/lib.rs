@@ -14,6 +14,7 @@ pub mod locality;
 pub mod measurement;
 pub mod profile;
 pub mod simd;
+pub mod study;
 pub mod zero_copy;
 
 /// Devuelve la identidad del curso para comprobar la fundación del crate.
