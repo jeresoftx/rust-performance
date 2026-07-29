@@ -116,7 +116,7 @@ su dependencia.
 ### Capítulo 05: ramas y layout orientado a datos
 
 - [x] #14 Especificar predicción de ramas, distribución y representación.
-- [ ] #15 Implementar y probar modelos de ramas y layout alternativo.
+- [x] #15 Implementar y probar modelos de ramas y layout alternativo.
 - [ ] #16 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ### Capítulo 06: asignaciones y costo de propiedad
