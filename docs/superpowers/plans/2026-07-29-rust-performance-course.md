@@ -109,7 +109,7 @@ su dependencia.
 
 ### Capítulo 04: caché y locality
 
-- [ ] #11 Especificar localidad espacial, temporal y condiciones de medición.
+- [x] #11 Especificar localidad espacial, temporal y condiciones de medición.
 - [ ] #12 Implementar y probar modelos de recorrido contiguo y disperso.
 - [ ] #13 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
