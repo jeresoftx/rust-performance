@@ -152,7 +152,7 @@ su dependencia.
 
 ### Capítulo 10: investigación completa de rendimiento
 
-- [ ] #31 Especificar caso de estudio, métricas, línea base y criterio de éxito.
+- [x] #31 Especificar caso de estudio, métricas, línea base y criterio de éxito.
 - [ ] #32 Implementar y probar una investigación reproducible de punta a punta.
 - [ ] #33 Escribir capítulo, reporte, diagrama, ejercicios y soluciones.
 
