@@ -9,8 +9,8 @@ registra dirección y calidad, no una carrera por terminar (RFC-0001 §1).
 La fundación y el plan operativo están listos. El
 [plan versionado](docs/superpowers/plans/2026-07-29-rust-performance-course.md)
 se ejecuta mediante el [GitHub Project](https://github.com/users/jeresoftx/projects/19),
-milestones e issues. Asignaciones y costo de propiedad están en `draft`; el
-siguiente bloque es `#21 → #22 → #23`: arenas seguras y ciclos de vida.
+milestones e issues. Arenas seguras y ciclos de vida están en `draft`; el
+siguiente bloque es `#24 → #25 → #26`: zero-copy, buffers y serialización.
 
 ## Dirección Técnica
 
