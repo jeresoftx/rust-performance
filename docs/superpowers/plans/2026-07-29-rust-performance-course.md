@@ -95,7 +95,7 @@ su dependencia.
 
 ### Capítulo 02: diseño de benchmarks reproducibles
 
-- [ ] #5 Especificar muestras, calentamiento, ruido y reporte de resultados.
+- [x] #5 Especificar muestras, calentamiento, ruido y reporte de resultados.
 - [ ] #6 Implementar y probar un harness educativo sin dependencias externas.
 - [ ] #7 Escribir capítulo, ejemplos, ejercicios, soluciones y benchmark base.
 
