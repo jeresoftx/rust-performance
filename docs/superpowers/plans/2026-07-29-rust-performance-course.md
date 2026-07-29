@@ -128,7 +128,7 @@ su dependencia.
 ### Capítulo 07: arenas seguras y ciclos de vida
 
 - [x] #21 Especificar arena segura, capacidad, reset y alternativas.
-- [ ] #22 Implementar y probar una arena educativa sin `unsafe`.
+- [x] #22 Implementar y probar una arena educativa sin `unsafe`.
 - [ ] #23 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
 ## Milestone 3: Movimiento de datos y SIMD
