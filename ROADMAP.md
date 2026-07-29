@@ -9,8 +9,8 @@ registra dirección y calidad, no una carrera por terminar (RFC-0001 §1).
 La fundación y el plan operativo están listos. El
 [plan versionado](docs/superpowers/plans/2026-07-29-rust-performance-course.md)
 se ejecuta mediante el [GitHub Project](https://github.com/users/jeresoftx/projects/19),
-milestones e issues. Los capítulos de evidencia y benchmarks están en `draft`;
-el siguiente bloque es `#8 → #9 → #10`: profiling y selección de hot paths.
+milestones e issues. La disciplina de medición está en `draft`; el siguiente
+bloque es `#11 → #12 → #13`: caché y localidad.
 
 ## Dirección Técnica
 
