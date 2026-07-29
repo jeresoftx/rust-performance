@@ -90,7 +90,7 @@ su dependencia.
 ### Capítulo 01: evidencia y contrato de medición
 
 - [x] #2 Especificar hipótesis, línea base, variables y amenazas a validez.
-- [ ] #3 Implementar y probar un modelo de experimento reproducible.
+- [x] #3 Implementar y probar un modelo de experimento reproducible.
 - [ ] #4 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
 
 ### Capítulo 02: diseño de benchmarks reproducibles

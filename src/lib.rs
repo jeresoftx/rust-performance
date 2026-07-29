@@ -6,6 +6,8 @@
 
 #![forbid(unsafe_code)]
 
+pub mod measurement;
+
 /// Devuelve la identidad del curso para comprobar la fundación del crate.
 #[must_use]
 pub const fn course_name() -> &'static str {
