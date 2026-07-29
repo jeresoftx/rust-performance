@@ -101,7 +101,7 @@ su dependencia.
 
 ### Capítulo 03: profiling y selección de hot paths
 
-- [ ] #8 Especificar qué responde un perfil y qué no demuestra.
+- [x] #8 Especificar qué responde un perfil y qué no demuestra.
 - [ ] #9 Implementar y probar un modelo de contadores e interpretación.
 - [ ] #10 Escribir capítulo, diagrama, ejemplos, ejercicios y soluciones.
 
