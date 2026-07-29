@@ -127,7 +127,7 @@ su dependencia.
 
 ### Capítulo 07: arenas seguras y ciclos de vida
 
-- [ ] #21 Especificar arena segura, capacidad, reset y alternativas.
+- [x] #21 Especificar arena segura, capacidad, reset y alternativas.
 - [ ] #22 Implementar y probar una arena educativa sin `unsafe`.
 - [ ] #23 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
