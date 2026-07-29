@@ -9,8 +9,8 @@ registra dirección y calidad, no una carrera por terminar (RFC-0001 §1).
 La fundación y el plan operativo están listos. El
 [plan versionado](docs/superpowers/plans/2026-07-29-rust-performance-course.md)
 se ejecuta mediante el [GitHub Project](https://github.com/users/jeresoftx/projects/19),
-milestones e issues. Zero-copy, buffers y serialización están en `draft`; el
-siguiente bloque es `#27 → #28 → #29 → #30`: SIMD y límites de vectorización.
+milestones e issues. SIMD y límites de vectorización están en `draft`; el
+siguiente bloque es `#31 → #32 → #33`: investigación completa de rendimiento.
 
 ## Dirección Técnica
 
