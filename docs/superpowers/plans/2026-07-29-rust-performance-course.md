@@ -25,8 +25,8 @@ representación operativa. Issues y PRs deben mantenerse alineados con este plan
 - [x] Milestones, labels, 33 issues activos y sus campos operativos creados.
 - [x] Backlog agrupado por `Milestone`; Roadmap y Critical Path usan layout de
   roadmap con fechas cargadas en todos los items.
-- [~] #27 queda bloqueado solo para SIMD explícito que requiera `unsafe`,
-  nightly o una dependencia externa; el resto del plan puede avanzar antes.
+- [x] #27 autoriza `wide` `1.5.0` para SIMD explícito sobre Rust estable; se
+  mantienen prohibidos `unsafe`, nightly y dependencias directas adicionales.
 
 ## Objetivo
 
@@ -43,10 +43,12 @@ justificación e implementación. Cada tema se entrega en tres slices:
 especificación, modelo Rust con pruebas y capítulo con ejemplos, ejercicios,
 soluciones, diagrama y medición o declaración honesta de por qué no aplica.
 
-El crate inicia sin dependencias y prohíbe `unsafe`. Criterion, un crate de
-profiling o SIMD explícito necesitan decisión humana antes de incorporarse. El
-capítulo SIMD puede medir auto-vectorización; código SIMD explícito queda
-bloqueado hasta la autorización que se registre en #27.
+El crate prohíbe `unsafe`. Criterion, un crate de profiling o SIMD explícito
+necesitan decisión humana antes de incorporarse. Para el capítulo SIMD se
+autorizó `wide` `1.5.0` como única dependencia directa: ofrece tipos SIMD
+portables sobre Rust estable sin exponer `unsafe` en el material del curso. El
+capítulo también mide auto-vectorización y declara cuándo una conclusión no se
+puede generalizar entre arquitecturas.
 
 ## Criterio de cierre global
 
@@ -164,8 +166,8 @@ su dependencia.
 |---|---|---|
 | #3, #6, #9, #12, #15, #18, #22, #25, #29, #32 | Especificación del capítulo | Ninguno adicional. |
 | #4, #7, #10, #13, #16, #20, #23, #26, #30, #33 | Modelo del capítulo | Ninguno adicional. |
-| #27 | #26 | Decisión humana solo si se solicita SIMD explícito, `unsafe` o crate externo. |
-| #29 | #27 y #28 | No iniciar SIMD explícito sin autorización registrada. |
+| #27 | #26 | Decisión humana registrada: `wide` `1.5.0`; sin `unsafe`, nightly ni dependencias directas adicionales. |
+| #29 | #27 y #28 | Usar únicamente la estrategia autorizada en #27. |
 | #34 | #33 | Ninguno; no marca capítulos como revisados. |
 
 ## Contrato de issues y validación
@@ -182,6 +184,26 @@ milestone, labels y están agregados al Project #19.
 | Capítulo | Modelo verde, ejemplos ejecutables, Mermaid, ejercicios, soluciones y benchmark o declaración honesta. |
 | Decisión | Alternativas, impacto de dependencias/`unsafe` y autorización humana cuando aplique. |
 | Cierre | Índice, enlaces, estados, glosario, ruta de lectura y suite completa. |
+
+## Decisión SIMD explícito: issue #27
+
+Joel autorizó el 2026-07-29 `wide` `1.5.0` para este curso, compatible con
+Rust estable. La dependencia se limita a demostrar SIMD explícito de forma
+portable y verificable; no convierte una medición local en una afirmación
+universal de rendimiento.
+
+| Alternativa | Decisión | Motivo |
+|---|---|---|
+| Solo auto-vectorización | Complementaria, no suficiente | Sirve para enseñar observación del compilador, pero no el modelo explícito de datos SIMD. |
+| `std::simd` / `portable_simd` | Rechazada | Requiere nightly y el curso debe compilar en Rust estable. |
+| Intrínsecos por arquitectura | Rechazada | Exigirían `unsafe` y reducirían la portabilidad pedagógica. |
+| `wide` `1.5.0` | Aprobada | Expone tipos SIMD portables en Rust estable sin `unsafe` en el código del curso. |
+| Dependencia de despacho dinámico adicional | Fuera de alcance | Añadiría complejidad antes de estudiar el modelo básico y no fue autorizada. |
+
+La futura implementación de #29 debe validar resultados numéricos contra una
+línea base escalar, medir en el entorno declarado y describir los límites de
+arquitectura, tamaño de entrada y precisión. Ningún capítulo se marca como
+`reviewed` ni `published` por esta decisión.
 
 ## Modo autónomo y siguiente bloque
 
