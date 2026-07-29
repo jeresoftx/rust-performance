@@ -121,7 +121,7 @@ su dependencia.
 
 ### Capítulo 06: asignaciones y costo de propiedad
 
-- [ ] #17 Especificar asignación, reutilización, ownership y límites.
+- [x] #17 Especificar asignación, reutilización, ownership y límites.
 - [ ] #18 Implementar y probar modelos de construcción y reutilización.
 - [ ] #20 Escribir capítulo, diagrama, ejemplos, ejercicios y benchmarks.
 
